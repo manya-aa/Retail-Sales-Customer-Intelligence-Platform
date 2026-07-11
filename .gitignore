@@ -1,20 +1,94 @@
-# Virtual Environment
-venv/
-
+# ==========================
 # Python
+# ==========================
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+*.pyd
 *.pyo
 
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ==========================
+# uv
+# ==========================
+.uv/
+
+# ==========================
 # Jupyter
+# ==========================
 .ipynb_checkpoints/
 
+# ==========================
 # VS Code
+# ==========================
 .vscode/
 
-# OS Files
-.DS_Store
-Thumbs.db
+# ==========================
+# JetBrains
+# ==========================
+.idea/
 
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
+
+# ==========================
 # Environment Variables
+# ==========================
 .env
+.env.*
+
+# ==========================
+# Python Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+
+# ==========================
+# Power BI Cache
+# ==========================
+*.pbix.autosave
+*.pbix.lock
+
+# ==========================
+# PostgreSQL
+# ==========================
+*.backup
+*.dump
+*.sql.bak
+src/*.egg-info/
